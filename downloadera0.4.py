@@ -38,7 +38,7 @@ class baixar ():
       
       
       self.month_cb['values'] = lista_resul
-      self.month_cb.current(5) 
+     # self.month_cb.current(5) 
       
      except Exception:
       print('Não e vidio')
@@ -80,10 +80,15 @@ class baixar ():
 
  def baixas(self,link):
     global ys
-   
-    yt  = YouTube(link, on_progress_callback= self.progress)
     
-    ys = yt.streams.get_highest_resolution()
+
+    yt  = YouTube(link, on_progress_callback= self.progress)
+    bai =self.month_cb.current() 
+    print(bai,'okokokoko')
+    
+    ys = yt.streams[bai] 
+     
+    
     ys.download(pastas)
    
 

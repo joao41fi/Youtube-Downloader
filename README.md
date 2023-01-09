@@ -5,5 +5,6 @@ Download de vídeos - *
 Barra de download  - *
 Escolha da resolução - * 
 Escolha da pasta - *
-Transformar arquivo em mp3 quando baixa o audio- 
+Transformar arquivo em mp3 quando baixa o audio- *
 Verificar de baxa vidos sem som e indicar as opções-
+
